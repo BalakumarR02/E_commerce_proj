@@ -1,0 +1,4 @@
+mutation DeleteItem($id:Float!)
+{
+  deleteItem(id:$id)
+}

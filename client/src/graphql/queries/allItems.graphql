@@ -1,0 +1,12 @@
+query allItems{
+  allItems
+  {
+    id
+    title
+    description
+    imageUrl
+    quantity
+    price
+  }
+ 
+}

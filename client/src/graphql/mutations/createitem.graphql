@@ -1,0 +1,13 @@
+mutation CreateItem($title:String!,$description:String!,$imageUrl:String!,$price:Float!,$quantity:Float!)
+{
+  createItem(title:$title,description:$description,imageUrl:$imageUrl,price:$price,quantity:$quantity)
+  {
+    id
+    title
+    description
+    imageUrl
+    price
+    quantity
+    
+  }
+}
